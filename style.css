@@ -1,0 +1,61 @@
+body
+{
+   margin: 0;
+   padding: 0;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50vh;
+    grid-template-areas: "one two four" "three five six" "seven eight nine";
+}
+.element:nth-child(1)
+{
+    background-color: brown;
+    grid-area: one;
+}
+.element:nth-child(2)
+{
+    background-color: royalblue;
+    grid-area: two;
+}
+.element:nth-child(3)
+{
+    background-color: green;
+    grid-area: three;
+}
+.element:nth-child(4)
+{
+    background-color: orangered;
+    grid-area: four;
+}
+.element:nth-child(5)
+{
+    background-color: teal;
+    grid-area: five;
+}
+.element:nth-child(6)
+{
+    background-color:aqua;
+    grid-area: six;
+}
+.element:nth-child(7)
+{
+    background-color: purple;
+    grid-area: seven;
+}
+.element:nth-child(8)
+{
+    background-color: burlywood;
+    grid-area: eight;
+}
+.element:nth-child(9)
+{
+    background-color: teal;
+    grid-area: nine;
+}
+
+
+
+
