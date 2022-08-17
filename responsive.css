@@ -1,7 +1,7 @@
 @media screen and (max-width: 800px){
     .container{
         grid-template-columns: 1fr;
-        grid-template-areas: "two" "four" "one" "six" "three" "five" "seven" "eight" "nine";
+        grid-template-areas: "one" "two" "three" "four" "five" "six" "seven" "eight" "nine";
     }
     
 }
